@@ -4,8 +4,13 @@ const SimpleInput = () => {
   const [enteredName, setEnteredName] = useState("");
   const [enteredNameTouched, setEnteredNameTouched] = useState(false);
 
-  const enteredNameIsValid = enteredName.trim() !== '';
+  const enteredNameIsValid = enteredName.trim() !== "";
   const nameInputIsInvalid = !enteredNameIsValid && enteredNameTouched;
+
+  let formIsValid = false;
+  if (enteredNameIsValid) {
+    formIsValid = true;
+  }
 
   const nameInputChangeHandler = (e) => {
     setEnteredName(e.target.value);
@@ -46,7 +51,7 @@ const SimpleInput = () => {
         {nameInputIsInvalid && <p className="error-text">Enter a name</p>}
       </div>
       <div className="form-actions">
-        <button>Submit</button>
+        <button disabled={!formIsValid}>Submit</button>
       </div>
     </form>
   );
