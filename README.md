@@ -1,6 +1,5 @@
-- A side project created for choosing food from menu, adding to the cart.
+- A side project created for working with Forms in React.
 - Written on React.js.
-- Hooks: useState, useEffect, useContext, useReducer, useRef, forwardRef, useImperative...
 
 
 # Getting Started with Create React App
