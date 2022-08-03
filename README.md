@@ -1,4 +1,4 @@
-- A side project created for working with Forms in React.
+- A side project created for working with Forms and Custom Hooks in React.
 - Written on React.js.
 
 
