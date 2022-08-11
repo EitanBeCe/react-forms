@@ -1,6 +1,5 @@
-- A side project created for working with Forms and Custom Hooks in React.
+- A side project created to practice with Forms and useInput Custom Hooks in React. (and useReducer)
 - Written on React.js.
-
 
 # Getting Started with Create React App
 
